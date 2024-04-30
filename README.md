@@ -1,4 +1,5 @@
-Este é um projeto em [Next.js]
+Este é um projeto em Next.js;
+Utilizando React, Typescript, Tailwind, Prisma, NeonDB e ShadcnUI;
 
 # FSW Foods
 
@@ -26,9 +27,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Você instalou a versão mais recente do `Node`;
+- Adicione a pasta .env com `DATABASE_URL={SUA_CONTA_NeonDB_Link}`;
 
 ## 🚀 Instalando FSW Foods
 
@@ -40,10 +40,10 @@ npm install
 
 ## ☕ Usando FSW Foods
 
-Para usar <nome_do_projeto>, siga estas etapas:
+Para usar FSW Foods, siga estas etapas:
 
 ```
-<exemplo_de_uso>
+npm run dev
 ```
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
