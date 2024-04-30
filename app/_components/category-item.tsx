@@ -8,7 +8,7 @@ interface CategoryItemProps {
 
 export default function CategoryItem({category}: CategoryItemProps){
     return(
-        <React.Fragment>
+        <div className="flex items-center gap-3 py-3 px-4 bg-white cursor-pointer shadow-md rounded-full w-full">
             <Image
               src={category.imageUrl}
               alt={category.name}
@@ -16,6 +16,6 @@ export default function CategoryItem({category}: CategoryItemProps){
               height={30}
             />
             <span className={"font-semibold text-sm"}>{category.name}</span>
-        </React.Fragment>
+        </div>
     );
 };
