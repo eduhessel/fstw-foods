@@ -22,7 +22,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Você instalou a versão mais recente do `Node`;
-- Adicione a pasta .env com `DATABASE_URL={SUA_CONTA_NeonDB_Link}`;
+- Adicione a pasta .env com `DATABASE_URL="<SUA_CONTA_NeonDB_Link>"`;
 
 ## 🚀 Instalando FSW Foods
 
@@ -30,6 +30,16 @@ Para instalar o FSW Foods, siga estas etapas:
 
 ```
 npm install
+```
+
+Para instalar o NeonDB, siga estas etapas:
+
+```
+npx prisma migrate dev --name init_database
+```
+
+```
+npx prisma db seed
 ```
 
 ## ☕ Usando FSW Foods

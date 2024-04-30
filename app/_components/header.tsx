@@ -4,12 +4,17 @@ import { MenuIcon } from "lucide-react";
 
 export default function Header(){
     return(
-        <div className={"flex justify-between pt-6"}>
-            <Image src={"/logo.svg"} alt={"Logo FSW Foods"} width={100} height={30}/>
+        <div className={"flex justify-between"}>
+            <Image
+                src={"/logo.svg"}
+                alt={"Logo FSW Foods"}
+                width={100}
+                height={30}/>
             <Button
                 size={"icon"}
                 variant={"outline"}
-                className={"border-none bg-transparent"}>
+                className={"border-none bg-transparent"}
+            >
                 <MenuIcon />
             </Button>
         </div>
