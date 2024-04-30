@@ -8,7 +8,7 @@ export default function Search(){
             <Input
                 placeholder={"Buscar restaurantes"}
                 className={"border-none"}/>
-            <Button size={"icon"}>
+            <Button  size={"icon"}>
                 <SearchIcon size={20}/>
             </Button>
         </div>
