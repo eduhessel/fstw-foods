@@ -9,7 +9,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="https://media.discordapp.net/attachments/1143517905103884332/1234888652757270609/Capa.png?ex=66325f2d&is=66310dad&hm=ee7395dc32a7ba8693ab9074c23ba0344d363540ddf01f1c3510ce40799181df&=&format=webp&quality=lossless&width=1074&height=671" alt="Capa projeto FSW Foods">
 
 >[!NOTE]
 > Tecnologias utilizadas no projeto: Next, React, Typescript, Tailwind, Prisma, NeonDB e ShadcnUI;
