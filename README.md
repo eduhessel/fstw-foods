@@ -1,7 +1,7 @@
-Este é um projeto em Next.js;
-Utilizando React, Typescript, Tailwind, Prisma, NeonDB e ShadcnUI;
-
 # FSW Foods
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000"/>
+</p>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -11,7 +11,8 @@ Utilizando React, Typescript, Tailwind, Prisma, NeonDB e ShadcnUI;
 
 <img src="imagem.png" alt="Exemplo imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+>[!NOTE]
+> Tecnologias utilizadas no projeto: Next, React, Typescript, Tailwind, Prisma, NeonDB e ShadcnUI;
 
 ### Ajustes e melhorias
 
