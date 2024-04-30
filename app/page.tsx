@@ -1,6 +1,7 @@
 import Banner01 from "./_components/banner01"
 import {CategoryList} from "./_components/category-list"
 import Header from "./_components/header"
+import {ProductsList} from "./_components/products-list"
 import Search from "./_components/search"
 
 export default function Home(){
@@ -17,6 +18,9 @@ export default function Home(){
         </div>
         <div className={"px-5 pt-6"}>
             <Banner01/>
+        </div>
+        <div className={"pt-6"}>
+            <ProductsList/>
         </div>
     </>
   )
