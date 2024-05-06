@@ -9,9 +9,16 @@ export async function ProductsList(){
             },
         },
         take: 10,
+        include: {
+            restaurant: {
+                select: {
+                    name: true,
+                }
+            },
+        },
     });
     return(
-        <div className={"flex overflow-x-scroll [&::-webkit-scrollbar]:hidden px-5"}>
+        <div className={"flex overflow-x-scroll [&::-webkit-scrollbar]:hidden px-5 gap-4"}>
             {products.map((product) =>(
                 <ProductsItem
                     key={product.id}
