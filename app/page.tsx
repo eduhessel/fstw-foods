@@ -5,8 +5,26 @@ import Header from "./_components/header"
 import {ProductsList} from "./_components/products-list"
 import Search from "./_components/search"
 import { Button } from "./_components/ui/button"
+import { db } from "./_lib/prisma"
+import Banner02 from "./_components/banner02"
 
-export default function Home(){
+const Home = async () => {
+    const products = await db.product.findMany({
+        where: {
+            discountPercentage: {
+                gt: 0,
+            },
+        },
+        take: 10,
+        include: {
+            restaurant: {
+                select: {
+                    name: true,
+                }
+            },
+        },
+    });
+
   return(
     <>
         <div className={"pt-6 px-5"}>
@@ -29,8 +47,13 @@ export default function Home(){
                     <ChevronRightIcon size={16}/>
                 </Button>
             </div>
-            <ProductsList/>
+            <ProductsList products={products}/>
+        </div>
+        <div className={"px-5 pt-6"}>
+            <Banner02/>
         </div>
     </>
   )
 }
+
+export default Home;
